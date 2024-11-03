@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-//import { Sidebar } from "./Sidebar";
 import { Navbar } from "./Navbar";
 import { useLayout } from "../../context/layout/LayoutContext";
 import { Box, Modal, Paper, Slide, useTheme } from "@mui/material";

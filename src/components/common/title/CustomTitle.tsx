@@ -70,7 +70,7 @@ export const CustomTitle = ({
             transition: "color 0.4s ease",
           }}
         >
-          {title ? title : "MusicX"}
+          {title ? title : "MusicBoxx"}
         </Typography>
       </Box>
 
