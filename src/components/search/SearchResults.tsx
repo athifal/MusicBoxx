@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, CircularProgress } from "@mui/material";
 import { useState, useEffect } from "react";
 import { SongsApiResponse } from "../../constants/interfaces/api.responses";
 import { Song } from "../../constants/interfaces/song.interface";
@@ -73,7 +73,13 @@ export const SearchResult = () => {
       {/* Show songResult if searchQuery exists; otherwise show suggestions */}
       <SongList songs={searchQuery ? songResult : suggestions} />
 
-      {loading && <Typography>Loading...</Typography>}
+      {/* Loading animation */}
+      {loading && (
+        <Box display="flex" alignItems="center" justifyContent="center" flexDirection="column" mt={2}>
+          <CircularProgress color="primary" />
+          <Typography variant="body2" mt={1}>Loading...</Typography>
+        </Box>
+      )}
     </Box>
   );
 };
