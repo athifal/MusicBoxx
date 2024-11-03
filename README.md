@@ -1,6 +1,5 @@
 # MusicX
-
-**MusicX** is a modern music streaming web app built using **Node.js**, **React**, **Material UI (MUI)**, and **TypeScript**, powered by the [Unofficial JioSaavn API by Sumit Kolhe](https://github.com/sumitkolhe/jiosaavn-api).
+**MusicX** is a modern music streaming web app built using **Node.js**, **React**, **Material UI (MUI)**, and **TypeScript**, powered by the [Unofficial JioSaavn API]
 
 ## Features
 
