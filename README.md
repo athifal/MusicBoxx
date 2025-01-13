@@ -1,5 +1,5 @@
 # Music Boxx
-**MusicX** is a modern music streaming web app built using **Node.js**, **React**, **Material UI (MUI)**, and **TypeScript**, powered by the [Unofficial JioSaavn API]
+**Music Boxx** is a modern music streaming web app built using **Node.js**, **React**, **Material UI (MUI)**, and **TypeScript**, powered by the [Unofficial JioSaavn API]
 ## Deployed Application
 
 You can access the live application at: [Music Boxx](https://music-boxx.vercel.app/home)
